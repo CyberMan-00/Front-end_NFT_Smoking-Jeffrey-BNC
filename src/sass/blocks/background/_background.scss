@@ -1,0 +1,30 @@
+.background {
+    background: fixed url('../img/skyscraper/background.svg') center center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    // z-index: 5;
+    
+    &__1 {
+        position: absolute;
+        z-index: 4;
+        bottom: 0;
+    }
+    &__2 {
+        position: absolute;
+        z-index: 3;
+        bottom: 0;
+    }
+    &__3 {
+        position: absolute;
+        z-index: 2;
+        bottom: 0;
+    }
+    &__4 {
+        position: absolute;
+        z-index: 1;
+        width: 90%;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

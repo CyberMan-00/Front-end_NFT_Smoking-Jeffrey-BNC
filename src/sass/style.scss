@@ -1,8 +1,9 @@
-@import 'base/bootstrap-reboot.min';
+@import 'libs/bootstrap-reboot.min';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 // base files
-
+@import 'base/variables';
+@import 'base/mixins';
 //
 
 * {
@@ -17,6 +18,14 @@
     
 }
 // blocks
+@import 'blocks/background/background';
+@import 'blocks/header/header';
+@import 'blocks/promo/promo';
+@import 'blocks/roadmap/roadmap';
+@import 'blocks/collection/collection';
+@import 'blocks/faq/faq';
+@import 'blocks/entrance/entrance';
+
 
 //
 

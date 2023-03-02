@@ -7,6 +7,70 @@
         
         height: 824px;
         width: 100%;
+
+        padding: 151px 110px 281px 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__wrapper {
+        &_left {
+            width: 309px;
+            padding: 7px;
+            display: flex;
+            justify-content: space-between;
+            
+            .col-1 {
+                width: 123px;
+            }
+            .col-2 {
+                width: 123px;
+            }
+        }
+        &_right {
+            width: 309px;
+            padding: 7px 83px 41px 14px;
+        }
+    }
+    &__target {
+        &_1 {
+            height: 137px;
+            text-align: center;
+            padding: 5px;
+        }
+        &_2 {
+            margin-top: 7px;
+            height: 233px;
+            text-align: center;
+            padding: 5px;
+        }
+        &_3 {
+            height: 213px;
+            text-align: center;
+            padding: 5px;
+        }
+        &_4 {
+            margin-top: 7px;
+            height: 158px;
+            text-align: center;
+            padding: 5px;
+        }
+        &_5 {
+            height: 110px;
+            text-align: center;
+            padding: 5px;
+        }
+        &_6 {
+            margin-top: 7px;
+            height: 110px;
+            text-align: center;
+            padding: 5px;
+        }
+        &_7 {
+            margin-top: 7px;
+            height: 110px;
+            text-align: center;
+            padding: 5px;
+        }
     }
     &__outside {
         display: none;

@@ -20,6 +20,10 @@ body {
     margin: 0 auto;
     
 }
+.roadmap-t {
+    font-size: 16px;
+    color: $color-white;
+}
 // blocks
 @import 'blocks/background/background';
 @import 'blocks/header/header';

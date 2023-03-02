@@ -34,6 +34,10 @@
         // justify-content: space-between;
         align-items: center;
         gap: 20px;
+
+        :nth-child(4) {
+            background-color: pink;
+        }
     }
     &__link {
         // font-family: Roboto;
@@ -44,15 +48,15 @@
         text-align: center;
         text-transform: capitalize;
         a {
-            color: $color-white;
+            color: $color-1;
             text-decoration: none;
         }
 
-        border: 2px solid $color-white;
-        border-color: $color-white;
+        background-color: $color-white;
         border-radius: 20px;
 
         padding: 5px 15px;
+
 
     }
 }

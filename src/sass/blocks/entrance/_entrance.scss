@@ -3,7 +3,9 @@
     position: relative;
 
     &__inside {
-        height: 100%;
+        background: url('../img/skyscraper/entrance.svg') no-repeat;
+
+        height: 824px;
         width: 100%;
         img {
             height: 100%;
@@ -11,8 +13,9 @@
         }
     }
     &__outside {
-        display: block;
-        height: 100%;
+        display: none;
+
+        height: 824px;
         width: 100%;
         img {
             height: 100%;

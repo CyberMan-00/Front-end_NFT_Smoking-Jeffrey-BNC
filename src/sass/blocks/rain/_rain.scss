@@ -14,14 +14,9 @@ hr {
 
 @keyframes rain {
 	from {
-		transform: rotate(90deg) translateX(0);
+		transform: rotate(90deg) translateX(-20px);
 	} 
 	to {
-		transform: rotate(90deg) translateX(calc(4900px));
+		transform: rotate(90deg) translateX(calc(4850px));
 	}
-}
-
-.rain {
-	position: fixed;
-	z-index: 10px;
 }

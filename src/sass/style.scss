@@ -12,9 +12,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-// body {
-//     position: relative;
-// }
+body {
+    position: relative;
+}
 .container {
     max-width:  1140px;
     margin: 0 auto;
@@ -28,8 +28,10 @@
 @import 'blocks/collection/collection';
 @import 'blocks/faq/faq';
 @import 'blocks/entrance/entrance';
+@import 'blocks/social/social';
 
 
+@import 'blocks/sides/sides';
 // effects 
 @import 'blocks/rain/rain';
 

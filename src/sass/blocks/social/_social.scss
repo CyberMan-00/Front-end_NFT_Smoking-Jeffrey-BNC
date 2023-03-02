@@ -1,0 +1,25 @@
+.social {
+    padding: 20px;
+    background: $color-1b;
+    border-radius: 20px;
+
+    position: fixed;
+    z-index: 10;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50%);
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        :last-child {
+            margin: 0;
+        }
+    }
+    &__item {
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+}
